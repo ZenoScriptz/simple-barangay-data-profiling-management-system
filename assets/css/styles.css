@@ -1,0 +1,111 @@
+.custom-border {
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-radius: 0;
+}
+
+.elections-header {
+	/* Your styles here */
+	background-color: #701515;
+	color: white;
+}
+
+.btn-elections {
+	background-color: #a70807;
+	color: white;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.navbar-brand {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.candidate-card {
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.candidate-image {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.error-message {
+	color: red;
+	display: none;
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+	background-color:hsla(0,0%,100%,1);
+background-image:
+radial-gradient(at 36% 30%, hsla(27,0%,100%,1) 0px, transparent 50%),
+radial-gradient(at 100% 0%, hsla(359,87%,46%,0.12) 0px, transparent 50%),
+radial-gradient(at 0% 54%, hsla(0,0%,100%,1) 0px, transparent 50%),
+radial-gradient(at 71% 69%, hsla(340,0%,100%,1) 0px, transparent 50%),
+radial-gradient(at 0% 100%, hsla(20,0%,100%,1) 0px, transparent 50%),
+radial-gradient(at 98% 100%, hsla(0,100%,92%,1) 0px, transparent 50%),
+radial-gradient(at 0% 0%, hsla(349,40%,45%,0.56) 0px, transparent 50%);
+}
+footer{
+    margin-top: auto;
+}
+
+.container{
+    margin-bottom: 20px;
+}
+
+.glass-card{
+background: rgba(255, 255, 255, 0.45);
+border-radius: 5px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.8px);
+-webkit-backdrop-filter: blur(15.8px);
+border: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+.alert {
+	border-radius: 10px;
+}
+
+.alert-danger {
+	background: rgba(220, 53, 69, 0.2);
+	border: none;
+	color: #000000;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    border-bottom: 3px solid #a70807; /* Adjust the color and thickness as needed */
+    padding-bottom: 0.25rem; /* Adjust the padding as needed */
+}
+
+.login .form-control {
+	background: transparent;
+	border: 1px solid #cccccc;
+	border-radius: 10px;
+	color: #000;
+}
+
+.login .btn-primary {
+	background: #074325;
+	border: none;
+	border-radius: 20px;
+	font-weight: 500;
+	color: white;
+}
+
+.login .btn-primary:hover {
+	background: #a70807;
+	color: #fff;
+}
+

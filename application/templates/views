@@ -1,0 +1,6 @@
+<?php include '../header.php'; include '../headercontent.php'; ?>
+<div class="page-wrapper">
+    <div class="content mt-5">
+    </div>
+</div>
+<?php include '../footer.php'; ?>
