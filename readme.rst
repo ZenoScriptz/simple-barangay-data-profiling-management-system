@@ -1,71 +1,39 @@
-###################
-What is CodeIgniter
-###################
+# Barangay Profiling and Data Management System
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+A web-based application designed to digitize the manual record-keeping processes of local barangays (communities) in Cotabato City. 
 
-*******************
-Release Information
-*******************
+**Academic Project:** This system was developed as a requirement for *IT Elective 2 (Web Programming)* to demonstrate proficiency in MVC Architecture using CodeIgniter 3.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+## 🎯 Project Goal
+To transition barangay operations from paper-based filing to a centralized, secure database that ensures data accuracy and faster retrieval of resident information.
 
-**************************
-Changelog and New Features
-**************************
+## 🛠️ Tech Stack
+- **Framework:** CodeIgniter 3 (MVC Architecture)
+- **Language:** PHP 7/8
+- **Frontend:** Bootstrap, HTML5, CSS3
+- **Database:** MySQL
+- **Tools:** Apache Server (XAMPP), VS Code
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+## ✨ Key Features
+- **Role-Based Access Control:** Distinct dashboards and permissions for *System Administrators* and *Barangay Secretaries*.
+- **Resident Profiling (CRUD):** Add, update, and search resident records with validation.
+- **Automated Reporting:** Generates demographic charts (Gender, Age Groups) and printable lists without manual counting.
+- **Activity Logging:** Tracks user actions for system accountability.
+- **Secure Authentication:** Encrypted login sessions.
 
-*******************
-Server Requirements
-*******************
+## ⚠️ Scope & Limitations (Academic Scope)
+As this is a student capstone project, the system focuses on **Data Profiling** rather than full ERP functionality:
+1.  **Manual Entry:** Data population relies on manual encoding by secretaries (no self-registration portal).
+2.  **Connectivity:** Requires an active internet/local server connection (no offline PWA mode).
+3.  **Financials:** Does not handle barangay budget or clearance payments.
+4.  **Verification:** No API integration with national IDs; data accuracy relies on the encoder.
 
-PHP version 5.6 or newer is recommended.
+## 🧠 Learning Outcomes
+Building this project was my primary introduction to **MVC (Model-View-Controller)** concepts. It helped me understand:
+- How to route traffic securely in a framework.
+- separating business logic (Controllers) from database queries (Models).
+- Managing sessions and user authentication states.
+- Sanitizing data to prevent basic SQL injection and XSS attacks.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+---
+*Developed by [Your Name] - BSIT 3rd Year*
