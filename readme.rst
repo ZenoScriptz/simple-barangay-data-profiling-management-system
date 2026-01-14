@@ -1,6 +1,6 @@
 # Barangay Profiling and Data Management System
 
-A web-based application designed to digitize the manual record-keeping processes of local barangays (communities) in Cotabato City. 
+A web-based application designed to digitize the manual record-keeping processes of local barangays (communities) in Cotabato City.
 
 **Academic Project:** This system was developed as a requirement for *IT Elective 2 (Web Programming)* to demonstrate proficiency in MVC Architecture using CodeIgniter 3.
 
@@ -31,9 +31,9 @@ As this is a student capstone project, the system focuses on **Data Profiling** 
 ## 🧠 Learning Outcomes
 Building this project was my primary introduction to **MVC (Model-View-Controller)** concepts. It helped me understand:
 - How to route traffic securely in a framework.
-- separating business logic (Controllers) from database queries (Models).
+- Separating business logic (Controllers) from database queries (Models).
 - Managing sessions and user authentication states.
 - Sanitizing data to prevent basic SQL injection and XSS attacks.
 
 ---
-*Developed by Mohammad Zailon - BSIT 3rd Year*
+*Developed by Mohammad Hani K. Zailon - BSIT 3rd Year*
