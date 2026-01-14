@@ -36,4 +36,4 @@ Building this project was my primary introduction to **MVC (Model-View-Controlle
 - Sanitizing data to prevent basic SQL injection and XSS attacks.
 
 ---
-*Developed by [Your Name] - BSIT 3rd Year*
+*Developed by Mohammad Zailon - BSIT 3rd Year*
